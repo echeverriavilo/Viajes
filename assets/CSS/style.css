@@ -57,22 +57,38 @@ body {
 #quienes {
     top: 0;
   }
-  .navbar .navbar-brand:hover {
-    color: #0dcaf0;
-  }
-  
-  .nav-link:visited,
-  .nav-link:link {
-    border-bottom: 2px solid transparent;
-  }
-  
-  .nav-link:hover,
-  .nav-link:active {
-    border-bottom: 2px solid #1bcfc6;
-    transform: translateY(-5px);
-  }
-  footer {
+
+  footer, .card-body {
     background: #0dcaf0;
     color: white;
     padding: 10px;
   }
+
+
+  #quienes {
+    top: 0;
+  }
+
+  .qs-icon {
+    background-color: #0dcaf0;
+    width: 100%;
+    text-align: center;
+    height: 2rem;
+    font-size: 1.8rem;
+    vertical-align: middle;
+  }
+
+  .card-img-top {
+    max-height: 150px;
+  }
+  .card-body {
+    display: inline-block;
+  }
+  
+  .f-icon, .f-text {
+  font-size: 1.5rem;
+}
+.f-icon:hover {
+  border-bottom: 2px solid white;
+  transform: translateY(-5px);
+}
