@@ -1,0 +1,78 @@
+body {
+    height: 100%;
+    color: white;
+    background: black;
+    scroll-behavior: smooth;
+  }
+  .navbar .container .navbar-collapse ul li a {
+    color: white;
+  }
+
+  .lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .navbar,
+.navbar-brand {
+  z-index: 9;
+  color: white;
+}
+#quienes {
+    top: 0;
+  }
+  .navbar .navbar-brand:hover {
+    color: #0dcaf0;
+  }
+  
+  .nav-link:visited,
+  .nav-link:link {
+    border-bottom: 2px solid transparent;
+  }
+  
+  .nav-link:hover,
+  .nav-link:active {
+    border-bottom: 2px solid #1bcfc6;
+    transform: translateY(-5px);
+  }
+  footer {
+    background: #0dcaf0;
+    color: white;
+    padding: 10px;
+  }
